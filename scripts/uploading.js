@@ -1,5 +1,5 @@
 const doc = document.getElementsByClassName("data-block")[0];
-let ip = '172.20.10.8:8080';
+let ip = '172.20.10.8:8888';
 let url = `http://${ip}/get`;
 
 fetch(url).then(function (response) {
